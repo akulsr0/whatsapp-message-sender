@@ -13,8 +13,9 @@
         <p class="primary-dark">Now send messages to anyone without saving their phone number.</p>
         <small class="primary-light">Note: Please include your country code in the phone number field.</small> <br>
         <input id="phoneNumber" type="number" placeholder="Phone Number"><br>
+        <small id="addmsg" onclick="addmessage()">Add a message</small><br id="addmsgbr">
         <textarea id="message" type="text" placeholder="Message"></textarea><br>
-        <button class="button" onclick="sendMessage()">Send</button><br><br>
+        <button id="btn" class="button" onclick="sendMessage()">Open Chat</button><br><br>
         <p id="errorMessage"></p>
     </center>
     <script src="main.js"></script>

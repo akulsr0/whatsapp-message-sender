@@ -12,3 +12,10 @@ function sendMessage() {
         window.location = "https://wa.me/" + phone + "/?text=" + encodeURIComponent(message)
     }
 }
+
+function addmessage() {
+    document.getElementById('btn').innerHTML = "Send"
+    document.getElementById('addmsg').style.display = 'none'
+    document.getElementById('addmsgbr').style.display = 'none'
+    document.getElementById('message').style.display = 'block'
+}
