@@ -46,6 +46,7 @@ textarea:focus {
     padding: 8px 30px;
     font-size: 16px;
     border-radius: 6px;
+    border-color: #0A79DF;
 }
 
 #errorMessage {
