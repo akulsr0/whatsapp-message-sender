@@ -53,6 +53,14 @@ textarea:focus {
     color: red;
 }
 
+.primary-light {
+    color: #3498DB;
+}
+
+.primary-dark {
+    color: #30336B;
+}
+
 @media only screen and (max-width: 1080px) {
     input {
         width: 70%;
