@@ -5,7 +5,7 @@ function sendMessage() {
 
     if(phone==="") {
         error.innerHTML = "Please enter phone number."
-    } else if(phone.length>10) {
+    } else if(phone.length>12) {
         error.innerHTML = "Please enter valid phone number."
     } else {
         error.innerHTML = ""
